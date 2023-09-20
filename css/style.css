@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    background-color: gray;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main {
+    width: 100%;
+    height: 92vh;
+    background-color: rgba(0, 0, 0, 0.754);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+}
+
+.contador {
+    width: 150px;
+    border: 2px solid white;
+    text-align: center;
+    padding: 1rem 5rem;
+    margin-top: 2rem;
+    color: white;
+    font-weight: bolder;
+    font-size: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.ganador {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+}
+
+.img-ppt {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 12rem;
+    padding: 2rem;
+    cursor: pointer;
+}
+
+.img-ppt:hover {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 12rem;
+    padding: 2rem;
+    transition: 1s;
+}
+
+.ppt:hover {
+    padding: 2rem;
+    transition: 1s;
+}
+
+.players{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 100;
+    width: 200px;
+}
+
+.players > p{
+    font-size: 1vh;
+    padding: 1rem;
+}
+
+.resultado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.competidores{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    width: 100%;
+    align-items: center;
+    font-size: 13px;
+}
+
+.contadorNumbers{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
